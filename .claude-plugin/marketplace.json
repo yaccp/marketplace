@@ -10,17 +10,18 @@
   "plugins": [
     {
       "name": "yaccp-aws-docusaurus",
-      "description": "Deploy Docusaurus sites to AWS with S3, CloudFront, ACM, Route53, and Lambda@Edge Basic Auth",
-      "version": "1.1.7",
+      "description": "Deploy Docusaurus sites to AWS with S3, CloudFront, and optional Basic Auth. Complete infrastructure-as-code solution.",
+      "version": "1.1.10",
       "source": {
         "source": "github",
         "repo": "yaccp/claude-plugin-aws-docusaurus"
       },
       "author": {
-        "name": "YACCP"
+        "name": "Cyril Feraudet",
+        "url": "https://github.com/feraudet"
       },
       "category": "deployment",
-      "keywords": ["aws", "docusaurus", "s3", "cloudfront", "deployment"]
+      "keywords": ["aws", "docusaurus", "s3", "cloudfront", "static-site", "deployment", "infrastructure"]
     }
   ]
 }
