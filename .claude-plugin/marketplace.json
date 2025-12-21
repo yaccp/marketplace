@@ -26,7 +26,7 @@
     {
       "name": "yaccp-aws-api-gateway",
       "description": "Deploy serverless REST/HTTP APIs with AWS Lambda and API Gateway using CDK",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": {
         "source": "github",
         "repo": "yaccp/claude-plugin-aws-api-gateway"
