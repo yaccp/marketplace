@@ -22,6 +22,21 @@
       },
       "category": "deployment",
       "keywords": ["aws", "docusaurus", "s3", "cloudfront", "static-site", "deployment", "infrastructure"]
+    },
+    {
+      "name": "yaccp-aws-api-gateway",
+      "description": "Deploy serverless REST/HTTP APIs with AWS Lambda and API Gateway using CDK",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "yaccp/claude-plugin-aws-api-gateway"
+      },
+      "author": {
+        "name": "Cyril Feraudet",
+        "url": "https://github.com/feraudet"
+      },
+      "category": "deployment",
+      "keywords": ["aws", "api-gateway", "lambda", "serverless", "cdk", "rest-api"]
     }
   ]
 }
