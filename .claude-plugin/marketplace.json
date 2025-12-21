@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "yaccp",
+  "version": "1.0.0",
+  "description": "YACCP - Yet Another Claude Code Plugin. Community plugins for Claude Code.",
+  "owner": {
+    "name": "YACCP",
+    "url": "https://github.com/yaccp"
+  },
+  "plugins": [
+    {
+      "name": "yaccp-aws-docusaurus",
+      "description": "Deploy Docusaurus sites to AWS with S3, CloudFront, ACM, Route53, and Lambda@Edge Basic Auth",
+      "version": "1.1.7",
+      "source": {
+        "source": "github",
+        "repo": "yaccp/claude-plugin-aws-docusaurus"
+      },
+      "author": {
+        "name": "YACCP"
+      },
+      "category": "deployment",
+      "keywords": ["aws", "docusaurus", "s3", "cloudfront", "deployment"]
+    }
+  ]
+}
