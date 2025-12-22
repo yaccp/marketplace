@@ -52,6 +52,21 @@
       },
       "category": "deployment",
       "keywords": ["aws", "s3", "cloudfront", "static-site", "hugo", "astro", "11ty", "ssl", "cdn"]
+    },
+    {
+      "name": "yaccp-roadmap-generator",
+      "description": "Create and manage product roadmaps with Markdown and Mermaid Gantt charts",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "yaccp/claude-plugin-roadmap-generator"
+      },
+      "author": {
+        "name": "Cyril Feraudet",
+        "url": "https://github.com/feraudet"
+      },
+      "category": "productivity",
+      "keywords": ["roadmap", "gantt", "mermaid", "planning", "milestones", "product-management"]
     }
   ]
 }
