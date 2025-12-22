@@ -56,7 +56,7 @@
     {
       "name": "yaccp-roadmap-generator",
       "description": "Create and manage product roadmaps with Markdown and Mermaid Gantt charts",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": {
         "source": "github",
         "repo": "yaccp/claude-plugin-roadmap-generator"
