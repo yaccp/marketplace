@@ -11,7 +11,7 @@
     {
       "name": "yaccp-action",
       "description": "Central hub for discovering, installing and launching YACCP plugins",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": {
         "source": "github",
         "repo": "yaccp/claude-plugin-action"
