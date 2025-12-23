@@ -9,6 +9,21 @@
   },
   "plugins": [
     {
+      "name": "yaccp-action",
+      "description": "Central hub for discovering, installing and launching YACCP plugins",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "yaccp/claude-plugin-action"
+      },
+      "author": {
+        "name": "Cyril Feraudet",
+        "url": "https://github.com/feraudet"
+      },
+      "category": "productivity",
+      "keywords": ["yaccp", "plugins", "hub", "launcher", "manager"]
+    },
+    {
       "name": "yaccp-aws-docusaurus",
       "description": "Deploy Docusaurus sites to AWS with S3, CloudFront, and optional Basic Auth",
       "version": "1.1.19",
