@@ -41,7 +41,7 @@
     {
       "name": "yaccp-aws-api-gateway",
       "description": "Deploy serverless REST/HTTP APIs with AWS Lambda and API Gateway using CDK",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "source": {
         "source": "github",
         "repo": "yaccp/claude-plugin-aws-api-gateway"
@@ -56,7 +56,7 @@
     {
       "name": "yaccp-aws-static-site",
       "description": "Deploy static sites to AWS S3 + CloudFront with custom domains and SSL",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": {
         "source": "github",
         "repo": "yaccp/claude-plugin-aws-static-site"
