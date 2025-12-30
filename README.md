@@ -1,31 +1,29 @@
-# YACCP Marketplace
+# marketplace
 
-**Yet Another Claude Code Plugin** - Marketplace communautaire de plugins pour Claude Code.
+Plugin marketplace
 
 ## Installation
 
 ```bash
-# Ajouter la marketplace
-/plugin marketplace add yaccp/marketplace
+claude plugin add yaccp/marketplace
 ```
 
-## Plugins disponibles
+## Usage
 
-| Plugin | Description | Version | Catégorie |
-|--------|-------------|---------|-----------|
-| `yaccp-aws-docusaurus` | Deploy sites to AWS S3 + CloudFront + Route53 | 1.1.5 | deployment |
+Ce plugin est **auto-découvert**. Décrivez simplement votre besoin :
 
-## Utilisation
+```
+"Je veux configurer marketplace"
+```
 
-```bash
-# Installer un plugin
-/plugin install yaccp-aws-docusaurus@yaccp
+Claude activera automatiquement le plugin et vous guidera via des menus interactifs.
 
-# Mettre à jour la marketplace
-/plugin marketplace update yaccp
+## Configuration
 
-# Mettre à jour un plugin
-/plugin update yaccp-aws-docusaurus@yaccp
+Toute la configuration est stockée dans :
+
+```
+.claude/yaccp/marketplace/config.json
 ```
 
 ## Structure
@@ -33,34 +31,13 @@
 ```
 marketplace/
 ├── .claude-plugin/
-│   └── marketplace.json    # Registry référençant les plugins externes
-├── CLAUDE.md
-└── README.md
+│   └── plugin.json       # Métadonnées
+├── skills/
+│   └── marketplace/
+│       └── SKILL.md      # Workflow complet
+└── CLAUDE.md             # Guide Claude
 ```
 
-Les plugins sont hébergés dans leurs propres repos GitHub et référencés via:
-```json
-{
-  "source": "github:yaccp/claude-plugin-aws-docusaurus"
-}
-```
+## License
 
-## Contribuer un plugin
-
-1. Créer un repo GitHub avec `.claude-plugin/plugin.json`
-2. Ajouter `commands/`, `skills/`, `agents/` selon besoin
-3. Fork ce repo marketplace
-4. Ajouter l'entrée dans `.claude-plugin/marketplace.json`:
-   ```json
-   {
-     "name": "mon-plugin",
-     "source": "github:user/mon-plugin",
-     "description": "Description du plugin",
-     "category": "category"
-   }
-   ```
-5. Pull Request
-
-## Licence
-
-MIT
+Apache-2.0
