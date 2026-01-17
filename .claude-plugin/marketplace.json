@@ -97,6 +97,21 @@
       },
       "category": "productivity",
       "keywords": ["roadmap", "gantt", "mermaid", "planning", "milestones", "product-management"]
+    },
+    {
+      "name": "yaccp-audio-transcribe",
+      "description": "Multi-method audio transcription with confidentiality, speed and cost options",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "yaccp/claude-plugin-audio-transcribe"
+      },
+      "author": {
+        "name": "Cyril Feraudet",
+        "url": "https://github.com/feraudet"
+      },
+      "category": "productivity",
+      "keywords": ["audio", "transcription", "whisper", "aws-transcribe", "speech-to-text", "stt"]
     }
   ]
 }
